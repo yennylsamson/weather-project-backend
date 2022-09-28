@@ -20,6 +20,5 @@ mvn spring-boot:run
 ```
 
 ## APIs Used:
-<a href="https://openweathermap.org/">Open Weather API</a>
-<br>
-<a href="https://restcountries.com">REST Countries</a>
+- [Open Weather API](https://openweathermap.org/)
+- [REST Countries](https://restcountries.com)
