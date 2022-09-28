@@ -18,3 +18,7 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## APIs Used:
+<a href="https://openweathermap.org/">Open Weather API</a>
+<a href="https://restcountries.com">REST Countries</a>
