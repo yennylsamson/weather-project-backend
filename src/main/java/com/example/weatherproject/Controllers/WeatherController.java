@@ -16,11 +16,6 @@ public class WeatherController{
     @GetMapping("/current")
     @CrossOrigin(origins="http://localhost:3000")
     public Flux<WeatherData> getCountries(@RequestParam(value = "country")String country) {
-        try {
             return weatherService.getWeatherInACountry(country);
-        }catch (Exception e){
-            e.printStackTrace();
-            return Flux.error(new Exception("server error"));
-        }
     }
 }

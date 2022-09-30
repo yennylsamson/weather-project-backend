@@ -19,11 +19,6 @@ public class CountriesController {
     @GetMapping("/asia")
     @CrossOrigin(origins="http://localhost:3000")
     public Flux<CountryData> getCountries() {
-        try {
             return countryService.getCountriesInAsia();
-        }catch (Exception e){
-            e.printStackTrace();
-            return Flux.error(new Exception("server error"));
-        }
     }
 }

@@ -19,6 +19,13 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
+## API Documentation
+You can find the API Documentation here via Postman Collection:
+- Weather Project API 
+```
+https://www.getpostman.com/collections/ff8b7e1f76f011ef8f97
+```
+
 ## APIs Used:
 - [Open Weather API](https://openweathermap.org/)
 - [REST Countries](https://restcountries.com)
