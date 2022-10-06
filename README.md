@@ -5,7 +5,7 @@
 
 For building and running the application you need:
 
-- [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [JDK 19](https://www.oracle.com/ph/java/technologies/downloads/#java19)
 - [Maven 3](https://maven.apache.org)
 
 ## Running the application locally
